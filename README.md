@@ -1,14 +1,17 @@
-# 🛒 Walmart Sales Analytics — End-to-End Data Analysis Project
+#  Walmart Sales Analytics — End-to-End Data Analysis Project
+
+##  Live Dashboard
+ **[Click here to view the Live Interactive Dashboard](https://walmart-sales-analytics.streamlit.app/)**
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 
-## 📌 Project Overview
+##  Project Overview
 An end-to-end data analysis project on 10,000+ real Walmart transactions using Python and PostgreSQL. This project covers the complete data pipeline from raw CSV ingestion to an interactive Streamlit dashboard.
 
-## 🎯 Business Questions Answered
+##  Business Questions Answered
 - Which cities and branches generate the most revenue?
 - Which product categories dominate sales?
 - What are the peak sales days and months?
@@ -16,7 +19,7 @@ An end-to-end data analysis project on 10,000+ real Walmart transactions using P
 - What is the monthly revenue growth rate?
 - Which branches have the best and worst customer ratings?
 
-## 🛠️ Tech Stack
+##  Tech Stack
 | Tool | Purpose |
 |---|---|
 | Python | Data cleaning & analysis |
@@ -27,12 +30,12 @@ An end-to-end data analysis project on 10,000+ real Walmart transactions using P
 | Streamlit | Interactive dashboard |
 | Git & GitHub | Version control |
 
-## 📊 Dataset
+##  Dataset
 - **Source:** Kaggle — Walmart 10K Sales Dataset
 - **Size:** 10,020 transactions after cleaning
 - **Features:** Branch, City, Category, Unit Price, Quantity, Date, Time, Payment Method, Rating, Profit Margin
 
-## 🔍 Key Insights
+##  Key Insights
 - **Home & Lifestyle** and **Fashion Accessories** account for **81% of total revenue**
 - **Saturday** is the highest revenue day ($186K) while **Monday** is the lowest ($156K)
 - **November** showed a massive **+249% revenue growth** — classic holiday season spike
@@ -40,7 +43,7 @@ An end-to-end data analysis project on 10,000+ real Walmart transactions using P
 - **Huntsville** branch has the highest customer rating (6.81) among all branches
 - **Weslaco** is the top city by revenue ($46,644) but has a below average rating
 
-## 📁 Project Structure
+##  Project Structure
 ```
 walmart-sales-analytics/
 │
@@ -54,7 +57,7 @@ walmart-sales-analytics/
 └── README.md            # Project documentation
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the repository
 ```bash
@@ -84,10 +87,8 @@ streamlit run dashboard.py
 ## 📸 Dashboard Preview
 ![Dashboard](top_cities.png)
 
-## 🌐 Live Dashboard
-👉 **[Click here to view the Live Interactive Dashboard](https://walmart-sales-analytics.streamlit.app/)**
 
-## 👩‍💻 Author
+##  Author
 **Anitha Morampudi**
 - LinkedIn: [linkedin.com/in/anitha-morampudi](https://linkedin.com/in/anitha-morampudi)
 - Email: anitham200110@gmail.com
