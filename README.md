@@ -84,6 +84,9 @@ streamlit run dashboard.py
 ## 📸 Dashboard Preview
 ![Dashboard](top_cities.png)
 
+## 🌐 Live Dashboard
+👉 **[Click here to view the Live Interactive Dashboard](https://walmart-sales-analytics.streamlit.app/)**
+
 ## 👩‍💻 Author
 **Anitha Morampudi**
 - LinkedIn: [linkedin.com/in/anitha-morampudi](https://linkedin.com/in/anitha-morampudi)
