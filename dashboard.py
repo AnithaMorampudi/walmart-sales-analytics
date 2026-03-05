@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sqlalchemy import create_engine
+
 
 # ================================================
 # PAGE CONFIG
@@ -13,17 +13,17 @@ st.set_page_config(
     layout="wide"
 )
 
-# ================================================
-# DATABASE CONNECTION
-# ================================================
-engine = create_engine('postgresql+psycopg2://postgres:admin123@localhost:5432/walmart_db')
 
 # ================================================
 # LOAD DATA
 # ================================================
 @st.cache_data
 def load_data():
-    return pd.read_sql("SELECT * FROM walmart_sales", engine)
+    df = pd.read_csv("Walmart.csv")
+    df['unit_price'] = df['unit_price'].str.replace('$', '', regex=False).astype(float)
+    df = df.dropna()
+    df['total_sales'] = df['unit_price'] * df['quantity']
+    return df
 
 df = load_data()
 
